@@ -1,0 +1,71 @@
+/*  <!-- this is display inline-block or block property start --> */
+.fptag {
+  font-size: 25px;
+  font-weight: 700;
+}
+.green {
+  display: block;
+  height: 200px;
+  width: 200px;
+  background-color: green;
+}
+
+.red {
+  display: block;
+  height: 200px;
+  width: 200px;
+  background-color: red;
+}
+.blue {
+  display: block;
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+}
+/*  <!-- this is display inline-block or block property end --> */
+
+/* <!-- this is display float property start --> */
+
+.img1 {
+  float: left;
+}
+.img2 {
+  float: right;
+  margin-left: 2px;
+}
+p {
+  text-align: justify;
+}
+img {
+  height: 150px;
+  width: 150px;
+}
+
+/* float area design */
+/* img {
+  float: left;
+  margin-right: 10px;
+} */
+footer {
+  /* clear: left; */
+  border: 2px solid red;
+  clear: both;
+}
+
+.first1 {
+  width: 250px;
+  float: left;
+}
+
+.second2 {
+  width: 250px;
+  float: right;
+}
+
+.img12 {
+  float: left;
+}
+.img23 {
+  float: right;
+}
+/* <!-- this is display float property end --> */

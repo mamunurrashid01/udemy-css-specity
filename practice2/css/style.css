@@ -1,0 +1,30 @@
+/* group selector */
+h1,
+h2 {
+  color: blueviolet;
+}
+.box > p /*.done*/ {
+  color: firebrick;
+}
+
+/* .list li {
+  color: blue;
+} */
+.box li {
+  color: blue;
+}
+
+/* chain selector */
+li.done {
+  color: seagreen;
+}
+
+/* combining combiners descending selector */
+/* ul p.done {
+  font-size: 1.5rem;
+  font-weight: bolder;
+} */
+/* another away to get same output */
+ul > p /* also use p.done*/ {
+  font-size: 1.5rem;
+}

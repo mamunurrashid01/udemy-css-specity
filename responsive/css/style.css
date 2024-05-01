@@ -1,0 +1,35 @@
+/* discussion about grid 
+actuali we use css grid for 2D design
+*/
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px 200px 200px;
+  gap: 10px;
+}
+.first {
+  grid-column: span 2;
+}
+
+.card {
+  background-color: aquamarine;
+}
+
+/* discussion about css flex box 
+actuali we use css flexbox for 1D design
+*/
+.flex-container {
+  display: flex;
+}
+.cards {
+  background-color: blanchedalmond;
+  height: 100px;
+  border: 3px solid green;
+  flex: 1;
+}
+.first {
+  flex: 2;
+}
+.second {
+  flex: 0.5;
+}
